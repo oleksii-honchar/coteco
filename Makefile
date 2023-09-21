@@ -18,4 +18,4 @@ help:
 # Docker
 
 go-publish:
-	GOPROXY=proxy.golang.org go list -m github.com/oleksii-honchar/coteco@v0.1.1
+	GOPROXY=proxy.golang.org go list -m github.com/oleksii-honchar/coteco@v0.1.2
