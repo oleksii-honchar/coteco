@@ -1,2 +1,2 @@
-# go-coteco
-Go Console Text Color
+# coteco
+"COnsole TExt COlor" utils for go logging
