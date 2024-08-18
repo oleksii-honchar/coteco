@@ -4,4 +4,5 @@
 ## How to publish
 
 - commit changes, make new tag
+- `go mod tidy`
 - `make go-publish`

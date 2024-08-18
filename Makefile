@@ -11,7 +11,7 @@ CLEAR=\033[2J
 .PHONY: help
 
 help:
-	@echo "nrp-cli" automation commands:
+	@echo "coteco" automation commands:
 	@echo
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(firstword $(MAKEFILE_LIST)) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
